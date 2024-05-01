@@ -8,3 +8,7 @@ Template: neve
 Version: 1.0.0
 Text Domain: nevechild
 */
+
+.site-title {
+    background-color: aqua;
+}
