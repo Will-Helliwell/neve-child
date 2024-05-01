@@ -8,3 +8,8 @@ Template: neve
 Version: 1.0.0
 Text Domain: nevechild
 */
+
+/* this uses CSS to hide the theme's default self-advertising footer text. Ideally would be done by modifying php */
+.hfg-grid .builder-item:nth-child(2) {
+    display: none;
+}
