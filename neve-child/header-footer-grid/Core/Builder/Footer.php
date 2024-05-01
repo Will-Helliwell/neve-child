@@ -14,6 +14,7 @@ namespace HFG\Core\Builder;
 use HFG\Main;
 use Neve\Core\Theme_Info;
 
+echo 'in footer.php of child theme' . PHP_EOL;
 /**
  * Class Footer
  *
@@ -155,7 +156,7 @@ class Footer extends Abstract_Builder {
 		$output  = '<div class="builder-item"><div class="item--inner"><div class="component-wrap"><div>';
 		$output .= sprintf(
 		/* translators: %1$s is Theme Name ( Neve ), %2$s is WordPress */
-			esc_html__( '%1$s | Powered by %2$s', 'neve' ),
+			esc_html__( '%1$s | test by %2$s', 'neve' ),
 			wp_kses_post( '<p><a href="https://themeisle.com/themes/neve/" rel="nofollow">Neve</a>' ),
 			wp_kses_post( '<a href="http://wordpress.org" rel="nofollow">WordPress</a></p>' )
 		);
